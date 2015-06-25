@@ -16,4 +16,5 @@
 	```Java
 		public void writeList() throws IOException, IndexOutOfBoundsException {
 	```
-	- 
+	- If you're not prepared to handle the exception, 'duck' the exception.
+		- Pass the exception to the method that called *you* by only declaring the exception
